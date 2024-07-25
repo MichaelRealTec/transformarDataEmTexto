@@ -22,7 +22,7 @@ public class Porgram {
 		LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
 		Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
 		
-		System.out.println("d04 = " + d04);
+		System.out.println("d04 = " + d04.format(fmt1)); // Agora é formatado para String ou para texto no formato customizado "fmt1" dia/mes/ano
 		System.out.println("d05 = " + d05);
 		System.out.println("d06 = " + d06);
 		
